@@ -1,0 +1,16 @@
+// Ejercicio 1
+int *crear_arreglo_memoria_dinamica(int hasta) {
+    return (int *)malloc(hasta * sizeof(int));
+
+}
+// Ejercicio 2
+void imprimir_elementos(int *arreglo, size_t num_elementos) {
+    for (size_t i = 0; i < num_elementos; i++) {
+        printf("%d ", arreglo[i]);
+    }
+    printf("\n");
+}
+// Ejercicio 3
+convertir_dict(string):
+    // Tendría que repasar para saber como agregar elementos al diccionario
+    return diccionario
